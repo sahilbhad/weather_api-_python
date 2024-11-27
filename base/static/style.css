@@ -1,0 +1,66 @@
+
+
+nav{
+    background-color: aliceblue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 3rem;
+    }
+}
+
+.Weather{
+    background-color: aliceblue;
+    height: 200px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 1px 1px 20px skyblue;
+    border-radius: 30px;
+  
+
+    form{
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+
+        label{
+            font-size:2rem;
+        }
+
+
+    
+        
+    }
+}
+
+.read{
+    background-color: rgb(184, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .data{
+
+        background-color: rgb(213, 249, 249);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 800px;
+        padding: 30px;
+
+    }
+
+}
